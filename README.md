@@ -1,26 +1,37 @@
-# Business-intelligence
-# Boozt Customer Review Analysis – Sentiment & Data Insights
+# Boozt Customer Review Analysis – Business Intelligence & Sentiment Insights
 
-This project presents a practical implementation of sentiment analysis and exploratory data analysis on customer reviews collected from Boozt, a major e-commerce company. The goal was to extract actionable insights regarding customer satisfaction, identify key sentiment trends, and support future business decisions using data-driven methods.
+This Business Intelligence project delivers a practical and data-driven approach to understanding customer satisfaction at Boozt, a leading Nordic e-commerce retailer. By applying sentiment analysis and advanced data analytics on customer reviews, the project uncovers valuable insights to support decision-making in marketing, product development, and customer experience strategy.
 
-## Project Scope
+## Project Objectives
 
-The analysis includes:
-- **Preprocessing of textual data** (cleaning, tokenization, normalization)
-- **Sentiment classification** using pre-trained models and/or rule-based techniques
-- **Visualizations of sentiment trends** over time, by product category and rating
-- **Topic modeling** and keyword extraction from customer feedback
-- **Clustering of review types** using unsupervised machine learning (e.g. KMeans)
-- **Correlation analysis** between review content and numeric ratings
+- Extract measurable sentiment from customer feedback using NLP techniques
+- Identify trends in satisfaction across product categories and time periods
+- Visualize correlations between review content and numerical ratings
+- Uncover underlying topics and recurring issues in customer language
+- Segment reviews using machine learning to better target improvement efforts
+
+## Key Features
+
+- **Text preprocessing**: cleaning, lemmatization, stopword removal  
+- **Sentiment analysis**: rule-based (VADER/TextBlob) and supervised models  
+- **Trend visualization**: time series of sentiment, rating distributions, word clouds  
+- **Topic modeling**: LDA for dominant themes in feedback  
+- **Clustering**: KMeans to group review types by linguistic and semantic features  
+- **Rating correlation**: statistical relationship between text polarity and stars
 
 ## Tools & Technologies
 
 - **Python 3.x**
-- **pandas, numpy** – data wrangling and manipulation
-- **matplotlib, seaborn** – data visualization
-- **scikit-learn** – machine learning (clustering, classification)
-- **NLTK / spaCy / TextBlob** – natural language processing
-- **Jupyter Notebook** – interactive development and reporting
+- `pandas`, `numpy` – data transformation and aggregation  
+- `matplotlib`, `seaborn` – data visualization and dashboards  
+- `scikit-learn` – clustering, classification, vectorization  
+- `spaCy`, `TextBlob`, `NLTK` – natural language processing  
+- `Jupyter Notebook` – modular, reproducible analysis
+
+
+
+
+
 
 
 
