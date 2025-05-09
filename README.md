@@ -22,6 +22,6 @@ The analysis includes:
 - **NLTK / spaCy / TextBlob** – natural language processing
 - **Jupyter Notebook** – interactive development and reporting
 
-## Structure
+
 
 
