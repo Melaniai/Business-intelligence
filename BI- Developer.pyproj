@@ -1,0 +1,81 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>191698ed-748c-4ce0-8a6f-8ee70154e758</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>BI- Developer</Name>
+    <RootNamespace>BI- Developer</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BI__Developer.py" />
+    <Compile Include="app.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\churn_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\forecast.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\content_recommender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\sentiment_analysis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\recommender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\segmentation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_plot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\data_loader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\anomaly.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\visualization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\prediction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\sentiment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\mapping.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="src\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
